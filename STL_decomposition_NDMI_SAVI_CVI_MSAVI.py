@@ -9,7 +9,7 @@ from scipy.signal import savgol_filter
 from statsmodels.tsa.seasonal import STL
 from datetime import datetime
 
-# 定义波段波长（假设与 Albedo_* 列对应）
+# 定义波段波长
 band_wavelengths = [0.47, 0.51, 0.64, 0.86, 1.6, 2.3]
 
 
